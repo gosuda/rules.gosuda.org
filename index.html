@@ -1,141 +1,195 @@
 <!DOCTYPE html>
 <html lang="ko">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Go수다 규칙</title>
-      <!-- IBM Plex Sans KR Font -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-      <!-- Open Graph Meta Tags -->
-      <meta property="og:title" content="Go수다 규칙" />
-      <meta property="og:description" content="Go 언어 개발자들의 수다방 채팅방 규칙입니다." />
-      <meta property="og:image" content="https://rules.gosuda.org/gosuda.png" />
-      <meta property="og:url" content="https://rules.gosuda.org/" />
-      <!-- SEO Meta Tags -->
-      <meta name="description" content="Go 언어 개발자들의 수다방 채팅방 규칙입니다." />
-      <meta name="keywords" content="Go, Golang, 개발, 개발자, 채팅방, 규칙" />
-      <link rel="canonical" href="https://rules.gosuda.org/" />
-      <!-- favicon -->
-      <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
-      <link rel="manifest" href="/assets/site.webmanifest">
-      <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
-      <link rel="shortcut icon" href="/assets/favicon.ico">
-      <meta name="msapplication-TileColor" content="#ffc40d">
-      <meta name="msapplication-config" content="/assets/browserconfig.xml">
-      <meta name="theme-color" content="#ffffff">
-      <style>
-         body {
-         font-family: 'IBM Plex Sans KR', sans-serif; /* Apply IBM Plex Sans KR font */
-         font-weight: 400; /* Regular weight */
-         background-color: #f5f5f5;
-         color: #333;
-         margin: 0;
-         padding: 0;
-         }
-         header {
-         background-color: #333;
-         color: #fff;
-         text-align: center;
-         padding: 1em 0;
-         }
-         h1, h2 {
-         text-align: center;
-         margin-top: 0.5em;
-         font-size: 2.5em; /* Increased font size for h2 */
-         font-weight: 700; /* Bold weight for headings */
-         }
-         nav {
-         background-color: #eee;
-         padding: 1em;
-         text-align: center;
-         }
-         nav a {
-         text-decoration: none;
-         color: #333;
-         margin: 0 1em;
-         }
-         main {
-         padding: 2em;
-         max-width:780px;
-         margin: 0 auto;
-         }
-         .faq-section {
-         margin-bottom: 2em;
-         }
-         .faq-question {
-         font-weight: bold;
-         margin-bottom: 0.5em;
-         }
-         .faq-answer {
-         margin-bottom: 1em;
-         }
-         .rule-page {
-         text-align: left; /* Align rules to the left */
-         padding-left: 2em; /* Add some padding for readability */
-         }
-         .rule-page p {
-         margin-bottom: 1em;
-         }
-         .centered-image {
-         display: flex;
-         justify-content: center;
-         margin-bottom: 1em; /* Reduced margin below the image */
-         }
-         .centered-image img {
-         max-width: 200px;
-         height: auto;
-         }
-      </style>
-   </head>
-   <body>
-      <header>
-         <h1>Go수다 규칙</h1>
-      </header>
-      <nav>
-         <a href="https://open.kakao.com/o/gd5mx3E">채팅방 참여하기</a>
-      </nav>
-      <div class="centered-image">
-         <img src="https://rules.gosuda.org/gosuda.png" alt="Gopher Image" border="0">
-      </div>
-      <main>
-         <section id="rules" class="rule-page">
-            <h2>주요 채팅방 규칙</h2>
-            <p>- [입장시] 공지확인후 인사를 나눕시다.</p>
-            <p>    입장후 바로 잠수 하시는분은 관리자 판단에 의해 강제퇴장 될 수 있습니다.</p>
-            <p>    단, 기존멤버가 재입장시는 예외이며, Go와 관련된 닉네임으로 입장하시는분에 대해서도 강제퇴장 조치는 일시 보류됩니다.</p>
-            <p>- [입장후] 이와 같은 행동은 강제퇴장 조치됩니다.</p>
-            <p>    - 사행, 선정적인 광고및 언행 1회 노출시 퇴장</p>
-            <p>    - 정치, 남여, 교란, 분란, 개발과 관련없는 대화주제로 호응없이 주기적, 반복적 노출시 1회 경고후 퇴장</p>
-            <p>    - 이외 부적절하다고 판단될시 경고및 퇴장</p>
-            <p>- [입장후] 대화매너를 지켜주시기 바랍니다.</p>
-            <p>    - 대화중인 방에 다른 주제나 질문을 잠시 기다린후 해주세요.</p>
-            <p>    - 남을 비방하거나 불쾌할 수 있는 언행은 삼가해주세요.</p>
-            <p>    - 새로운분이 입장하면 모두 다같이 인사하며 반겨주세요.</p>
-            <p>- [광고] 광고에대해 확인부탁드립니다.</p>
-            <p>    - 개발관련 세미나, 모임, 번개광고는 가능합니다.</p>
-            <p>    - 본인의 회사채용, 소개, 스터디는 광고가 가능하며 필요시 관리자에 채팅방상단공지 & 노션페이지 등록 요청이 가능합니다.</p>
-            <p>    - 이외 모든광고는 관리자에게 문의후 공유 부탁드립니다.</p>
-         </section>
-         <section id="managers" class="rule-page">
-            <h2>커뮤니티 관리자</h2>
-            <p>커뮤니티 관리자는 커뮤니티의 환경을 유지하기 위해 노력하고 있습니다. 문의사항이나 불편한 점이 있을 경우 언제든지 연락해 주세요.</p>
-            <p>- 총괄자: <a href="https://open.kakao.com/o/s2KfcDO">방장아님</a></p>
-            <p>- 관리자: <a href="https://open.kakao.com/me/HellP">헬프(HellP)</a></p>
-            <p>- 관리자: <a href="https://open.kakao.com/me/zig82">아Zig초보</a></p>
-            <p>- 관리자: <a href="https://open.kakao.com/o/sfkKSQLg">G/백엔드</a></p>
-            <p>- 관리자: <a href="https://open.kakao.com/me/snowmerak">snowmerak</a></p>
-         </section>
-         <section>
-            <h2>함께하는 커뮤니티</h2>
-            <h3>Go Developer Community</h3>
-            <p>고 언어 뿐만 아니라 다양한 개발 관련 내용을 담은 뉴스레터를 발행합니다.</p>
-            <p>1. <a href="https://gdc.hashnode.dev">GDC hashnode</a></p>
-            <p>2. <a href="https://open.kakao.com/o/gBhUh8Ve">GDC kakaotalk open chatroom</a></p>
-         </section>
-      </main>
-   </body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go수다 규칙</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Go수다 규칙" />
+    <meta property="og:description" content="Go 언어 개발자들의 수다방 채팅방 규칙입니다." />
+    <meta property="og:image" content="https://rules.gosuda.org/gosuda.png" />
+    <meta property="og:url" content="https://rules.gosuda.org/" />
+    <meta name="description" content="Go 언어 개발자들의 수다방 채팅방 규칙입니다." />
+    <meta name="keywords" content="Go, Golang, 개발, 개발자, 채팅방, 규칙" />
+    <link rel="canonical" href="https://rules.gosuda.org/" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-config" content="/assets/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+      :root {
+      --primary-color: #007d9c;
+      --secondary-color: #00acd7;
+      --background-color: #f5f5f5;
+      --text-color: #333;
+      --header-bg: #333;
+      --header-color: #fff;
+      --nav-bg: #eee;
+      }
+      body {
+      font-family: 'IBM Plex Sans KR', sans-serif;
+      font-weight: 400;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      }
+      header {
+      background-color: var(--header-bg);
+      color: var(--header-color);
+      text-align: center;
+      padding: 1.5em 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      h1, h2, h3 {
+      text-align: center;
+      margin-top: 0.5em;
+      font-weight: 700;
+      }
+      h1 { font-size: 2.5em; }
+      h2 { font-size: 2em; color: var(--primary-color); }
+      h3 { font-size: 1.5em; color: var(--secondary-color); }
+      nav {
+      background-color: var(--nav-bg);
+      padding: 1em;
+      text-align: center;
+      }
+      nav a {
+      text-decoration: none;
+      color: var(--primary-color);
+      margin: 0 1em;
+      font-weight: 500;
+      transition: color 0.3s ease;
+      }
+      nav a:hover {
+      color: var(--secondary-color);
+      }
+      main {
+      padding: 2em;
+      max-width: 780px;
+      margin: 0 auto;
+      }
+      .rule-page {
+      text-align: left;
+      padding-left: 2em;
+      }
+      .rule-page p, .rule-page ul {
+      margin-bottom: 1em;
+      }
+      .centered-image {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1em;
+      }
+      .centered-image img {
+      max-width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+      section {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 2em;
+      margin-bottom: 2em;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      }
+      a {
+      color: var(--primary-color);
+      text-decoration: none;
+      transition: color 0.3s ease;
+      }
+      a:hover {
+      color: var(--secondary-color);
+      }
+      ul {
+      padding-left: 20px;
+      }
+      @media (max-width: 600px) {
+      main {
+      padding: 1em;
+      }
+      .rule-page {
+      padding-left: 1em;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Go수다 규칙</h1>
+    </header>
+    <nav>
+      <a href="https://open.kakao.com/o/gd5mx3E">채팅방 참여하기</a>
+    </nav>
+    <div class="centered-image">
+      <img src="https://rules.gosuda.org/gosuda.png" alt="Gopher Image" border="0">
+    </div>
+    <main>
+      <section id="rules" class="rule-page">
+        <h2>주요 채팅방 규칙</h2>
+        <ul>
+          <li>
+            <strong>[입장시]</strong> 공지확인후 인사를 나눕시다.
+            <ul>
+              <li>입장후 바로 잠수 하시는분은 관리자 판단에 의해 강제퇴장 될 수 있습니다.</li>
+              <li>단, 기존멤버가 재입장시는 예외이며, Go와 관련된 닉네임으로 입장하시는분에 대해서도 강제퇴장 조치는 일시 보류됩니다.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>[입장후]</strong> 이와 같은 행동은 강제퇴장 조치됩니다.
+            <ul>
+              <li>사행, 선정적인 광고및 언행 1회 노출시 퇴장</li>
+              <li>정치, 남여, 교란, 분란, 개발과 관련없는 대화주제로 호응없이 주기적, 반복적 노출시 1회 경고후 퇴장</li>
+              <li>이외 부적절하다고 판단될시 경고및 퇴장</li>
+            </ul>
+          </li>
+          <li>
+            <strong>[입장후]</strong> 대화매너를 지켜주시기 바랍니다.
+            <ul>
+              <li>대화중인 방에 다른 주제나 질문을 잠시 기다린후 해주세요.</li>
+              <li>남을 비방하거나 불쾌할 수 있는 언행은 삼가해주세요.</li>
+              <li>새로운분이 입장하면 모두 다같이 인사하며 반겨주세요.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>[광고]</strong> 광고에대해 확인부탁드립니다.
+            <ul>
+              <li>개발관련 세미나, 모임, 번개광고는 가능합니다.</li>
+              <li>본인의 회사채용, 소개, 스터디는 광고가 가능하며 필요시 관리자에 채팅방상단공지 & 노션페이지 등록 요청이 가능합니다.</li>
+              <li>이외 모든광고는 관리자에게 문의후 공유 부탁드립니다.</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section id="managers" class="rule-page">
+        <h2>커뮤니티 관리자</h2>
+        <p>커뮤니티 관리자는 커뮤니티의 환경을 유지하기 위해 노력하고 있습니다. 문의사항이나 불편한 점이 있을 경우 언제든지 연락해 주세요.</p>
+        <ul>
+          <li>총괄자: <a href="https://open.kakao.com/o/s2KfcDO">방장아님</a></li>
+          <li>관리자: <a href="https://open.kakao.com/me/HellP">헬프(HellP)</a></li>
+          <li>관리자: <a href="https://open.kakao.com/me/zig82">아Zig초보</a></li>
+          <li>관리자: <a href="https://open.kakao.com/o/sfkKSQLg">G/백엔드</a></li>
+          <li>관리자: <a href="https://open.kakao.com/me/snowmerak">snowmerak</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>함께하는 커뮤니티</h2>
+        <h3>Go Developer Community</h3>
+        <p>고 언어 뿐만 아니라 다양한 개발 관련 내용을 담은 뉴스레터를 발행합니다.</p>
+        <ol>
+          <li><a href="https://gdc.hashnode.dev">GDC hashnode</a></li>
+          <li><a href="https://open.kakao.com/o/gBhUh8Ve">GDC kakaotalk open chatroom</a></li>
+        </ol>
+      </section>
+    </main>
+  </body>
 </html>
