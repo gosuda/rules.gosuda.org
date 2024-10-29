@@ -11,7 +11,9 @@
 * 총괄자: [방장아님](https://open.kakao.com/o/s2KfcDO)
 * 관리자: [헬프(HellP)](https://open.kakao.com/me/HellP)
 * 관리자: [아Zig초보](https://open.kakao.com/me/zig82)
-* 관리자: [G/백엔드](https://open.kakao.com/o/sfkKSQLg)
+* 관리자: [JY/Backend](https://open.kakao.com/o/s3vWoNOg)
+* 관리자: [Doge](https://open.kakao.com/o/sfqE4yOc)
+* 관리자: [phs](https://open.kakao.com/me/feelsong)
 * 관리자: [snowmerak](https://open.kakao.com/me/snowmerak)
 
 ## 채팅방
